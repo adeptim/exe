@@ -1,0 +1,10 @@
+^C:\USERS\VOLDE\DOCUMENTS\PROJECT\EXE\BUILD\CMAKEFILES\D19125D5FDD2CD3C32994BA0EBE9CD5A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/volde/Documents/Project/exe -BC:/Users/volde/Documents/Project/exe/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/volde/Documents/Project/exe/build/matrixlib-use.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
