@@ -1,0 +1,828 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+      Сборка начата 01.07.2025 20:52:45.
+      
+      Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.50
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/volde/Documents/Project/libs/build/CMakeFiles/4.0.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-zbagru"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-zbagru"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-zbagru'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ee8ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 01.07.2025 20:52:46.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbagru\\cmTC_ee8ba.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ee8ba.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbagru\\Debug\\".
+          Создание каталога "cmTC_ee8ba.dir\\Debug\\cmTC_ee8ba.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ee8ba.dir\\Debug\\cmTC_ee8ba.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ee8ba.dir\\Debug\\cmTC_ee8ba.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee8ba.dir\\Debug\\\\" /Fd"cmTC_ee8ba.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee8ba.dir\\Debug\\\\" /Fd"cmTC_ee8ba.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbagru\\Debug\\cmTC_ee8ba.exe" /INCREMENTAL /ILK:"cmTC_ee8ba.dir\\Debug\\cmTC_ee8ba.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-zbagru/Debug/cmTC_ee8ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-zbagru/Debug/cmTC_ee8ba.lib" /MACHINE:X64  /machine:x64 cmTC_ee8ba.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ee8ba.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbagru\\Debug\\cmTC_ee8ba.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_ee8ba.dir\\Debug\\cmTC_ee8ba.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_ee8ba.dir\\Debug\\cmTC_ee8ba.tlog\\cmTC_ee8ba.lastbuildstate".
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbagru\\cmTC_ee8ba.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:33 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-hdxcsm"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-hdxcsm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-hdxcsm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0cc28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 01.07.2025 20:52:47.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0cc28.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\Debug\\".
+          Создание каталога "cmTC_0cc28.dir\\Debug\\cmTC_0cc28.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0cc28.dir\\Debug\\cmTC_0cc28.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_0cc28.dir\\Debug\\cmTC_0cc28.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0cc28.dir\\Debug\\\\" /Fd"cmTC_0cc28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0cc28.dir\\Debug\\\\" /Fd"cmTC_0cc28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx"
+          src.cxx
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,16): error C2065: __deprecated__: необъявленный идентификатор [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,33): error C2062: тип "int" не требуется [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,48): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(2,25): error C3861: somefunc: идентификатор не найден [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,16): error C2065: __deprecated__: необъявленный идентификатор [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,33): error C2062: тип "int" не требуется [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(1,48): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\src.cxx(2,25): error C3861: somefunc: идентификатор не найден [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hdxcsm\\cmTC_0cc28.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 6
+        
+        Прошло времени 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:275 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:33 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-mblbk8"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-mblbk8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-mblbk8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b436.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 01.07.2025 20:52:47.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\cmTC_9b436.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9b436.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\Debug\\".
+          Создание каталога "cmTC_9b436.dir\\Debug\\cmTC_9b436.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9b436.dir\\Debug\\cmTC_9b436.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_9b436.dir\\Debug\\cmTC_9b436.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_9b436.dir\\Debug\\\\" /Fd"cmTC_9b436.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_9b436.dir\\Debug\\\\" /Fd"cmTC_9b436.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\Debug\\cmTC_9b436.exe" /INCREMENTAL /ILK:"cmTC_9b436.dir\\Debug\\cmTC_9b436.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-mblbk8/Debug/cmTC_9b436.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-mblbk8/Debug/cmTC_9b436.lib" /MACHINE:X64  /machine:x64 cmTC_9b436.dir\\Debug\\src.obj
+          cmTC_9b436.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\Debug\\cmTC_9b436.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_9b436.dir\\Debug\\cmTC_9b436.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_9b436.dir\\Debug\\cmTC_9b436.tlog\\cmTC_9b436.lastbuildstate".
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mblbk8\\cmTC_9b436.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+      Сборка начата 01.07.2025 22:12:49.
+      
+      Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.69
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/volde/Documents/Project/libs/build/CMakeFiles/4.0.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-vz81qh"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-vz81qh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-vz81qh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2c217.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 01.07.2025 22:12:50.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz81qh\\cmTC_2c217.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2c217.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz81qh\\Debug\\".
+          Создание каталога "cmTC_2c217.dir\\Debug\\cmTC_2c217.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2c217.dir\\Debug\\cmTC_2c217.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2c217.dir\\Debug\\cmTC_2c217.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2c217.dir\\Debug\\\\" /Fd"cmTC_2c217.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2c217.dir\\Debug\\\\" /Fd"cmTC_2c217.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz81qh\\Debug\\cmTC_2c217.exe" /INCREMENTAL /ILK:"cmTC_2c217.dir\\Debug\\cmTC_2c217.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-vz81qh/Debug/cmTC_2c217.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-vz81qh/Debug/cmTC_2c217.lib" /MACHINE:X64  /machine:x64 cmTC_2c217.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2c217.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz81qh\\Debug\\cmTC_2c217.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_2c217.dir\\Debug\\cmTC_2c217.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_2c217.dir\\Debug\\cmTC_2c217.tlog\\cmTC_2c217.lastbuildstate".
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz81qh\\cmTC_2c217.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:33 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-02iwo5"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-02iwo5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-02iwo5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_44f0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 01.07.2025 22:12:51.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_44f0c.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\Debug\\".
+          Создание каталога "cmTC_44f0c.dir\\Debug\\cmTC_44f0c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_44f0c.dir\\Debug\\cmTC_44f0c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_44f0c.dir\\Debug\\cmTC_44f0c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_44f0c.dir\\Debug\\\\" /Fd"cmTC_44f0c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_44f0c.dir\\Debug\\\\" /Fd"cmTC_44f0c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx"
+          src.cxx
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,16): error C2065: __deprecated__: необъявленный идентификатор [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,33): error C2062: тип "int" не требуется [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,48): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(2,25): error C3861: somefunc: идентификатор не найден [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,16): error C2065: __deprecated__: необъявленный идентификатор [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,33): error C2062: тип "int" не требуется [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(1,48): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\src.cxx(2,25): error C3861: somefunc: идентификатор не найден [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02iwo5\\cmTC_44f0c.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 6
+        
+        Прошло времени 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:275 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:33 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-db2sfk"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-db2sfk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-db2sfk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_146ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 01.07.2025 22:12:52.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\cmTC_146ab.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_146ab.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\Debug\\".
+          Создание каталога "cmTC_146ab.dir\\Debug\\cmTC_146ab.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_146ab.dir\\Debug\\cmTC_146ab.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_146ab.dir\\Debug\\cmTC_146ab.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_146ab.dir\\Debug\\\\" /Fd"cmTC_146ab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_146ab.dir\\Debug\\\\" /Fd"cmTC_146ab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\Debug\\cmTC_146ab.exe" /INCREMENTAL /ILK:"cmTC_146ab.dir\\Debug\\cmTC_146ab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-db2sfk/Debug/cmTC_146ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-db2sfk/Debug/cmTC_146ab.lib" /MACHINE:X64  /machine:x64 cmTC_146ab.dir\\Debug\\src.obj
+          cmTC_146ab.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\Debug\\cmTC_146ab.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_146ab.dir\\Debug\\cmTC_146ab.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_146ab.dir\\Debug\\cmTC_146ab.tlog\\cmTC_146ab.lastbuildstate".
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-db2sfk\\cmTC_146ab.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.55
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+      Сборка начата 02.07.2025 22:52:29.
+      
+      Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/volde/Documents/Project/libs/build/CMakeFiles/4.0.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-uka2hi"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-uka2hi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-uka2hi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc4fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 02.07.2025 22:52:30.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uka2hi\\cmTC_cc4fe.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_cc4fe.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uka2hi\\Debug\\".
+          Создание каталога "cmTC_cc4fe.dir\\Debug\\cmTC_cc4fe.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_cc4fe.dir\\Debug\\cmTC_cc4fe.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_cc4fe.dir\\Debug\\cmTC_cc4fe.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc4fe.dir\\Debug\\\\" /Fd"cmTC_cc4fe.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc4fe.dir\\Debug\\\\" /Fd"cmTC_cc4fe.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uka2hi\\Debug\\cmTC_cc4fe.exe" /INCREMENTAL /ILK:"cmTC_cc4fe.dir\\Debug\\cmTC_cc4fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-uka2hi/Debug/cmTC_cc4fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-uka2hi/Debug/cmTC_cc4fe.lib" /MACHINE:X64  /machine:x64 cmTC_cc4fe.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cc4fe.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uka2hi\\Debug\\cmTC_cc4fe.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_cc4fe.dir\\Debug\\cmTC_cc4fe.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_cc4fe.dir\\Debug\\cmTC_cc4fe.tlog\\cmTC_cc4fe.lastbuildstate".
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uka2hi\\cmTC_cc4fe.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:33 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-6i4yca"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-6i4yca"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-6i4yca'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_662aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 02.07.2025 22:52:31.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_662aa.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\Debug\\".
+          Создание каталога "cmTC_662aa.dir\\Debug\\cmTC_662aa.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_662aa.dir\\Debug\\cmTC_662aa.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_662aa.dir\\Debug\\cmTC_662aa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_662aa.dir\\Debug\\\\" /Fd"cmTC_662aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_662aa.dir\\Debug\\\\" /Fd"cmTC_662aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx"
+          src.cxx
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,16): error C2065: __deprecated__: необъявленный идентификатор [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,33): error C2062: тип "int" не требуется [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,48): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(2,25): error C3861: somefunc: идентификатор не найден [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,16): error C2065: __deprecated__: необъявленный идентификатор [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,33): error C2062: тип "int" не требуется [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(1,48): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+          C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\src.cxx(2,25): error C3861: somefunc: идентификатор не найден [C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6i4yca\\cmTC_662aa.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 6
+        
+        Прошло времени 00:00:00.99
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:275 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:33 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-05ugbs"
+      binary: "C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-05ugbs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-05ugbs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4443d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.14.10+8b8e13593 для .NET Framework
+        Сборка начата 02.07.2025 22:52:32.
+        
+        Проект "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\cmTC_4443d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_4443d.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\Debug\\".
+          Создание каталога "cmTC_4443d.dir\\Debug\\cmTC_4443d.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_4443d.dir\\Debug\\cmTC_4443d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4443d.dir\\Debug\\cmTC_4443d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_4443d.dir\\Debug\\\\" /Fd"cmTC_4443d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_4443d.dir\\Debug\\\\" /Fd"cmTC_4443d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\Debug\\cmTC_4443d.exe" /INCREMENTAL /ILK:"cmTC_4443d.dir\\Debug\\cmTC_4443d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-05ugbs/Debug/cmTC_4443d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/volde/Documents/Project/libs/build/CMakeFiles/CMakeScratch/TryCompile-05ugbs/Debug/cmTC_4443d.lib" /MACHINE:X64  /machine:x64 cmTC_4443d.dir\\Debug\\src.obj
+          cmTC_4443d.vcxproj -> C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\Debug\\cmTC_4443d.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_4443d.dir\\Debug\\cmTC_4443d.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_4443d.dir\\Debug\\cmTC_4443d.tlog\\cmTC_4443d.lastbuildstate".
+        Сборка проекта "C:\\Users\\volde\\Documents\\Project\\libs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05ugbs\\cmTC_4443d.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.93
+        
+      exitCode: 0
+...
