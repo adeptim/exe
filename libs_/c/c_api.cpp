@@ -46,7 +46,6 @@ Matrix *math_subtract(const Matrix *A, const Matrix *B)
 Matrix *math_dot(const Matrix *A, const Matrix *B)
 {
     return new Matrix(*A * *B);
-
 }
 Matrix *math_add_(const Matrix *A, const Matrix *B)
 {
@@ -56,8 +55,8 @@ Matrix *math_add_(const Matrix *A, const Matrix *B)
     *result += *B;
     return result;
 }
- Matrix *math_subtract_(const Matrix *A, const Matrix *B)
- {
+Matrix *math_subtract_(const Matrix *A, const Matrix *B)
+{
     // Создаём копию левого операнда
     Matrix *result = new Matrix(*A);
     // Применяем оператор += к копии
@@ -65,10 +64,10 @@ Matrix *math_add_(const Matrix *A, const Matrix *B)
     return result;
 }
 Matrix *math_dot_(const Matrix *A, int k)
- {
+{
     // Создаём копию левого операнда
     Matrix *result = new Matrix(*A);
     // Применяем оператор += к копии
-    *result *=k;
+    *result *= k;
     return result;
- }
+}
