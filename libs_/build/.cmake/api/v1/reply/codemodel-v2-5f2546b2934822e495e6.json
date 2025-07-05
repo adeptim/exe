@@ -1,0 +1,372 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lib_matrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-f019066f6ded5b23f170.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-13c9cf64bee8d4e508b7.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared-matrixlib-Debug-30a20e1ae9d59c6d69ac.json",
+					"name" : "shared-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static-matrixlib-Debug-c7d3f29745bdfa985208.json",
+					"name" : "static-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-shared-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-shared-matrix-Debug-1dc3eedfaa524b6cae88.json",
+					"name" : "test-shared-matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-static-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-static-matrix-Debug-8d0fa79c25cfb031572e.json",
+					"name" : "test-static-matrix",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lib_matrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-f019066f6ded5b23f170.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-13c9cf64bee8d4e508b7.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared-matrixlib-Release-54b1d6d27d3848ffd23c.json",
+					"name" : "shared-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static-matrixlib-Release-62ff3ba75210f590e6b6.json",
+					"name" : "static-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-shared-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-shared-matrix-Release-02364dc6a6ba8b1e09fb.json",
+					"name" : "test-shared-matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-static-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-static-matrix-Release-45cfd8d31fb26633cf68.json",
+					"name" : "test-static-matrix",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lib_matrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f019066f6ded5b23f170.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-13c9cf64bee8d4e508b7.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared-matrixlib-MinSizeRel-a32f713660e6895d5a5d.json",
+					"name" : "shared-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static-matrixlib-MinSizeRel-d93b7f06dfc3c0126322.json",
+					"name" : "static-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-shared-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-shared-matrix-MinSizeRel-07a46a21202be56da7cb.json",
+					"name" : "test-shared-matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-static-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-static-matrix-MinSizeRel-1ef28b6c029a260b3ac6.json",
+					"name" : "test-static-matrix",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lib_matrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f019066f6ded5b23f170.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-13c9cf64bee8d4e508b7.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared-matrixlib-RelWithDebInfo-68d09b8587acbbefff98.json",
+					"name" : "shared-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static-matrixlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static-matrixlib-RelWithDebInfo-d3aa586f2cefbeec41de.json",
+					"name" : "static-matrixlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-shared-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-shared-matrix-RelWithDebInfo-e9b9e781f8d7626d5bb2.json",
+					"name" : "test-shared-matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-static-matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-static-matrix-RelWithDebInfo-f3cdb2d8f2e38cf02a57.json",
+					"name" : "test-static-matrix",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/volde/Documents/Project/exe/libs_/build",
+		"source" : "C:/Users/volde/Documents/Project/exe/libs_"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

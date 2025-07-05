@@ -1,6 +1,6 @@
-^C:\USERS\VOLDE\DOCUMENTS\PROJECT\LIBS\CMAKELISTS.TXT
+^C:\USERS\VOLDE\DOCUMENTS\PROJECT\EXE\LIBS_\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/volde/Documents/Project/libs -BC:/Users/volde/Documents/Project/libs/build --check-stamp-file C:/Users/volde/Documents/Project/libs/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/volde/Documents/Project/exe/libs_ -BC:/Users/volde/Documents/Project/exe/libs_/build --check-stamp-file C:/Users/volde/Documents/Project/exe/libs_/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\volde\Documents\Project\libs\c\c_api.cpp">
+    <ClCompile Include="C:\Users\volde\Documents\Project\exe\libs_\c\c_api.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\volde\Documents\Project\libs\src\matrix.cpp">
+    <ClCompile Include="C:\Users\volde\Documents\Project\exe\libs_\src\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\volde\Documents\Project\libs\export.h">
+    <ClInclude Include="C:\Users\volde\Documents\Project\exe\libs_\export.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\volde\Documents\Project\libs\c\c_api.h">
+    <ClInclude Include="C:\Users\volde\Documents\Project\exe\libs_\c\c_api.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\volde\Documents\Project\libs\src\matrix.h">
+    <ClInclude Include="C:\Users\volde\Documents\Project\exe\libs_\src\matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\volde\Documents\Project\libs\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\volde\Documents\Project\exe\libs_\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A5D165AA-DCE4-3D4E-8933-9015A907E550}</UniqueIdentifier>
+      <UniqueIdentifier>{2E4CCE20-623B-3A9F-BDB5-B3AE653BF42E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FE2BDAE3-E40D-3C5A-BE9B-2A9B9796EACB}</UniqueIdentifier>
+      <UniqueIdentifier>{3977AEDA-7A34-3118-80F9-BDCF9CC9A7CD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

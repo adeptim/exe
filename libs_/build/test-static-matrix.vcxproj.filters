@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\volde\Documents\Project\libs\test\test-matrix-static.cpp">
+    <ClCompile Include="C:\Users\volde\Documents\Project\exe\libs_\test\test-matrix-static.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\volde\Documents\Project\libs\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\volde\Documents\Project\exe\libs_\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FE2BDAE3-E40D-3C5A-BE9B-2A9B9796EACB}</UniqueIdentifier>
+      <UniqueIdentifier>{3977AEDA-7A34-3118-80F9-BDCF9CC9A7CD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
